@@ -16,16 +16,16 @@ app.post("/", jsonParser, function (req, res) {
   bit0 = req.body.up;
   console.log(bit0);
   res.end();
-  bit1 = req.body.up;
+  bit1 = req.body.down;
   console.log(bit1);
   res.end();
-  bit2 = req.body.up;
+  bit2 = req.body.right;
   console.log(bit2);
   res.end();
-  bit3 = req.body.up;
+  bit3 = req.body.left;
   console.log(bit3);
   res.end();
-  bit4 = req.body.up;
+  bit4 = req.body.garra;
   console.log(bit4);
   res.end();
 
