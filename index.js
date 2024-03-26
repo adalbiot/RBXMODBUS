@@ -25,6 +25,9 @@ app.post("/", jsonParser, function (req, res) {
   bit3 = req.body.up;
   console.log(bit3);
   res.end();
+  bit4 = req.body.up;
+  console.log(bit4);
+  res.end();
 
 });
 
