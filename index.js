@@ -18,6 +18,7 @@ app.post("/", jsonParser, function (req, res) {
   bit2 = req.body.right;
   bit3 = req.body.left;
   bit4 = req.body.garra;
+  res.end();
 });
   console.log(bit0, bit1, bit2, bit3, bit4)
 
